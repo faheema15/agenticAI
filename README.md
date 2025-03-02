@@ -11,20 +11,19 @@ The project includes both a command-line interface (CLI) and a Streamlit-based U
 - Cleaned and Structured Output
 
 ## Installation
-Clone the Repository:
-git clone https://github.com/faheema15/agenticAI.git
-cd agenticAI
+- Clone the Repository: git clone https://github.com/faheema15/agenticAI.git
+- cd agenticAI
 
 Create a Virtual Environment: 
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate     # On Windows
+- python -m venv venv
+- source venv/bin/activate   # On macOS/Linux
+- env\Scripts\activate     # On Windows
 
 Install Dependencies:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 Set Up Environment Variables:
-In a .env file in the root directory and add API keys
+- In a .env file in the root directory and add API keys
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token
 TAVILY_API_KEY=your_tavily_api_key
 
